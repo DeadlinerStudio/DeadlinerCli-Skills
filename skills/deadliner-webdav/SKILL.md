@@ -5,7 +5,7 @@ description: Configure and run Deadliner CLI WebDAV synchronization and diagnose
 
 # Deadliner WebDAV
 
-Run `deadliner schema` and `deadliner sync status` with the intended `--data-dir`. Status only reports whether a URL is supplied; it does not test authentication or server reachability.
+Use `--json` on all Agent calls to avoid terminal-dependent human formatting. Run `deadliner --json schema` and `deadliner --json sync status` with the intended `--data-dir`. Status only reports whether a URL is supplied; it does not test authentication or server reachability.
 
 Configuration is per-process environment:
 - `DEADLINER_WEBDAV_URL`: HTTP(S) base collection URL, without embedded credentials, query or fragment. Prefer HTTPS for remote accounts.

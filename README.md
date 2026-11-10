@@ -8,7 +8,7 @@
 先安装 CLI，再将需要的技能目录复制到 Agent 的 skills 目录。
 
 ```sh
-npm install -g https://github.com/DeadlinerStudio/DeadlinerCli/releases/download/v0.1.0/deadlinerstudio-cli-0.1.0.tgz
+npm install -g https://github.com/DeadlinerStudio/DeadlinerCli/releases/download/v0.2.0/deadlinerstudio-cli-0.2.0.tgz
 ```
 
 例如 Codex 使用 `~/.codex/skills/`。本仓库不自动安装技能或修改用户配置。技能也可由支持 SKILL.md 的其他 Agent 使用。
